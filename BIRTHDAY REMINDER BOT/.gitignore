@@ -1,0 +1,26 @@
+# --- Virtual Environment ---
+# Ignore the virtual environment directory
+venv/
+/venv/
+
+# --- Credentials ---
+# Ignore the file containing secrets like the bot token
+.env
+
+# --- Data Files ---
+# Ignore the JSON file where birthday data is stored
+birthdays.json
+
+# --- Python Cache ---
+# Ignore Python bytecode files and cache directories
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- IDE / Editor Specific ---
+# Ignore VS Code specific settings directory (optional but common)
+.vscode/
+
+# --- Log Files (if you add logging later) ---
+# *.log
